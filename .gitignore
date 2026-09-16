@@ -1,5 +1,24 @@
+﻿# Environment & Secrets
+.env
+.env.*
+!.env.example
 
+# OS Files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# IDE & Editor Files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Logs & Temp files
+*.log
+*.tmp
+*.bak
+
+# Specific asset exclusions
 assets/picture1.jpg
 assets/picture2.jpg
-
-.env
